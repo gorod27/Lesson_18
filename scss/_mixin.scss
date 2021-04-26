@@ -1,0 +1,49 @@
+@mixin button{
+    width: 200px;
+    text-transform: uppercase;
+    font-family: 'Raleway Light';
+    font-size: 20px;
+    border: none;
+    padding: 15px 10px;
+    box-shadow: 1px 2px 4px gray;
+    a {
+      text-decoration-line: none;
+      color: #fff;
+    }
+}
+@mixin title {
+  font-family: 'Raleway Bold';
+      @include title-big;
+      
+      color: #fff;
+      text-align: center;
+}
+@mixin paragraph {
+  font-family: 'Raleway Light';
+  // font-size: 17px;
+  @include paragraph-text;
+  color: #262626;
+  text-align: center; 
+}
+@mixin header {
+  width: 40%;
+  margin: 0 auto;
+  padding-top: 5%;
+}
+@mixin list {
+  color: #262626;
+  font-size: 15px;
+  font-family: 'Raleway Bold';
+}
+@mixin title-text {
+  font-size: calc(32px + 18 * (100vw / 1170));
+}
+@mixin title-big {
+  font-size: calc(36px + 32 * (100vw / 1170));
+}
+@mixin paragraph-text {
+  font-size: calc(16px + 2 * (100vw / 1170));
+}
+@mixin section-text {
+  font-size: calc(15px + 2 * (100vw / 1170));
+}

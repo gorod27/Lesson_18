@@ -4,10 +4,216 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <link rel="stylesheet" href="scss/main.css">
-  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <link rel="stylesheet" href="scss/style.css">
+  <title>Cahee</title>
 </head>
 <body>
-  <footer class="footer"></footer>
+  <main class="main">
+
+    <!-- block Home -->
+
+    <div class="background__home">
+    <section class="section__home container">
+      <header class="header__home row justify-content-around" >
+        <span class="header__home-logo">Cahee</span>
+        <div class="header__menu">
+          <div class="header__menu-burger">
+            <input type="checkbox" name="#" id="menu__toggle" class="checkbox">
+            <label class="menu__btn" for="menu__toggle">
+            <span></span>
+            </label>
+          </div>
+          <ul class="header__home-menu menu__ul">
+            <li class="header__home-item"><a href="#"  class="header__home-link">home</a></li>
+            <li class="header__home-item"><a href="#about" class="header__home-link">about</a></li>
+            <li class="header__home-item"><a href="#services" class="header__home-link">services</a></li>
+            <li class="header__home-item"><a href="#gallery" class="header__home-link">gallery</a></li>
+            <li class="header__home-item"><a href="#blog" class="header__home-link">blog</a></li>
+            <li class="header__home-item"><a href="#contact" class="header__home-link">contact</a></li>
+          </ul>
+        </div>
+      </header>
+        <div class="section__home-block  ">
+          <h1 class="section__home-block-title">Fresh Life</h1>
+          <p class="section__home-block-paragraph section__paragraph">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+          <button class="section__home-block-button button"><a href="#">get free now</a></button>
+        </div>
+          <div class="section__home-icon">
+            <img src="/Homework/Lesson_11/img/scroll.png" alt="">
+        </div>
+    </section>
+  </div>
+
+    <!-- block About us -->
+    
+      <section class="section">
+        <div class="section__about container ">
+        <div class=" block section__block-about ">
+          <h1 class="block__title block__title-about title" id="about">About us</h1>
+          <p class="block__paragraph section__paragraph-about">Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+          <p class="block__paragraph section__paragraph-about">Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+        </div>
+      </div>
+        <div class="link__home">
+          <button class="button">
+            <a href="#">Home</a>
+          </button>
+        </div>
+      </section>
+
+      <!-- block Services -->
+
+      <section class="background__services" id="services">
+        <div class="section__services container row justify-content-between">
+          <div class="section__services-list ">
+            <ul class="section__services-ul services__list">
+              <a href=" " class="section__services-link"><div class="well"><span>Online shopping</span><div class="border"></div><div><img src="img/shopping_icon.png"></div></div></a>
+              <a href=" " class="section__services-link"><div class="well"><span>Quality Product</span><div class="border"></div><div><img src="img/quality_icon.png"></div></div></a>
+              <a href=" " class="section__services-link"><div class="well "><span class="delivery">Domestic & International Delivery</span><div class="border"></div><div><img src="img/delivery_icon.png"></div></div></a>
+              <a href=" " class="section__services-link"><div class="well"><span>Well Organized</span><div class="border"></div><div><img src="img/carrot_icon.png"></div></div></a>
+            </ul>
+            <div>
+              <h1 class="section__services-title">Our services</h1>
+            </div>
+          </div>
+          <div class="section__services-tomatoes-img">
+          <img src="./img/tomatoes.png" alt="" class="tomatoes__img">
+        </div>
+      </div>
+      </section>
+
+      <!-- block Gallery -->
+
+    <section class="section__gallery section ">
+      <div class="container">
+      <header class="section__gallery-header">
+        <h1 class="title header__title h1" id="gallery">Gallery</h1>
+        <p class="text header__text">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </header>
+      <div class="section__images ">
+        <div class="images__peach">
+          <img class="section__images-peach " src="img/peach.jpg" alt="peach">
+        </div>
+          <div class="column section__column">
+            <img class=" column__img" src="img/blueberry.jpg" alt="blueberry">
+            <img class=" column__img" src="img/blackberry.jpg" alt="blackberry">
+        </div>
+      </div>
+      <div class="section__footer  "> 
+        <div class="footer__images images__date-plum">
+        <img  src="img/glass.jpg" alt="glass">
+      </div>
+        <div class="footer__images ">
+        <img  src="img/date-plum.jpg" alt="date-plum">
+      </div>
+      </div>
+      <div class="row justify-content-center">
+        <button class="section__button-gallery button">wiew more</button>
+      </div>  
+    </div>
+    </section>
+
+    <!-- block Subscribe -->
+
+    <section class="background__subscribe">
+      <div class="container">
+        <div class="block__subscribe">
+          <h1 class="block__subscribe-title" id="subscribe">Subscribe To Us</h1>
+          <p class="block__subscribe-paragraph">Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+          <input type="text" class="block__subscribe-input" placeholder="Your email address...">
+          <button class="block__subscribe-button button">subscribe</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- block Blog -->
+
+  <section class="section__blog ">
+    <div class="container">
+    <header class="section__blog-header">
+      <h1 class="section__blog-title" id="blog">Blog</h1>
+      <p class="section__blog-pharagraph">Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+    </header>
+      <article class="article__blog  container-fluid row  ">
+        <section class="article__blog-section mohito">
+          <div class="article__blog-section-data">
+            <span >20 nov</span>
+          </div>
+        <img src="img/mohito_2.png" class="images" alt="mohito">
+          <span class="article__blog-section-text">Green Smoothies: Too Much of a Good Thing?
+          </span>
+      <span class="article__blog-section-signature">By Auskteez - 2 hours ago
+      </span>
+    </section>
+      <section class="article__blog-section">
+        <div class="article__blog-section-data">
+          <span >14 nov</span>
+      </div>
+        <img src="img/soupe.png" class="images" alt="soupe">
+        <span class="article__blog-section-text">Growing Food and a "Thirst" for Innovation
+        </span>
+        <span class="article__blog-section-signature">By Auskteez - 3 hours ago
+        </span>
+      </section>
+        <section class="article__blog-section">
+        <div class="article__blog-section-data">
+          <span >10 nov</span>
+      </div>
+        <img src="img/strawberry_2.png" class="images" alt="strawberry">
+        <span class="article__blog-section-text">Pesticides & Food: What You Need to Know
+        </span>
+        <span class="article__blog-section-signature">By Auskteez - 6 hours ago
+        </span>
+      </section>
+    </article>
+    <div class="button__place">
+      <button class="section__blog-button button__place button"><a href=" ">view more</a></button>
+    </div>
+  </div>
+    </section>
+
+    <!-- block Contact -->
+
+  <article class="article__contact ">
+    <div class="container">
+    <header class="article__contact-header header__contact">
+      <h1 class="article__contact-title title__distans" id="contact">Contact</h1>
+      <p class="article__contact-paragraph">For new project, ideas, business or anything you'd like to discuss, contact with me!</p>
+    </header>
+    <div class="row justify-content-around">
+      <section class="section__contact">
+          <form action="mail.php" method="GET" class="contact__form form__distans " >
+            <input type="text" class="input__form" placeholder="Your name...">
+            <input type="mail" class="input__form" placeholder="Your email...">
+            <input type="text" class="input__form" placeholder="Your phone number...">
+            <textarea name="message" class=" input__textarea input__form" id="" cols="10" rows="3" placeholder="Your message..."></textarea>
+          </form>
+        </section>
+        <section class="section__flex section__contact">
+          <div class="section__address">
+            <dl>
+              <dt>address </dt>
+                <dd>123 City name, Street, City, Country</dd>
+              <dt>email </dt>
+                <dd>cahee@domain.com</dd>
+              <dt> phone</dt>
+                <dd>+012 345 6789</dd>
+            </dl>
+          </div>
+        </section>
+      </div>
+    </article>
+      <footer class="footer footer__distance">
+        <div>
+          <span class="footer__copyright">© 2015 Company. All right reserved.</span>
+        </div>
+        <div> <span class="footer__logo-cahee">Cahee</span>
+        </div>
+        <div>
+          <span>Made with <span class="word__love">love </span>by Auskteez</span>
+        </div>
+      </footer>
+  </main>
 </body>
 </html>
